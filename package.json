@@ -1,0 +1,21 @@
+{
+  "dependencies": {
+    "commander": "^2.12.2",
+    "invariant": "^2.2.2"
+  },
+  "name": "explain-yarn",
+  "description": "[![explain](http://llever.com/explain.svg)](https://github.com/chinanf-boy/Source-Explain)",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "invariant:try": "node try/try_invariant.js",
+    "commander:try": "node try/try_commander.js -p P -c hello -b"
+  },
+  "keywords": [
+    "explain"
+  ],
+  "author": "yobrave",
+  "license": "MIT"
+}
